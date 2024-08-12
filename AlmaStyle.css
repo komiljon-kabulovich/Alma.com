@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.first-page {
+  background-image: url(./Photos/homephoto.jpg);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 20px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 50%;
+}
+
+ul a {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+.loginbutton {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+}
+
+.providerbutton {
+  background-color: rgba(12, 74, 52, 1);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+}
+
+.home-text-page {
+  color: white;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-text-page h1 {
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.home-browser-button {
+  background-color: #0c4a34;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+}
+
+.home-browser-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-text-page h3 {
+  margin-top: 30px;
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.home-text-page h3 a {
+  color: white;
+  margin: 0 10px;
+}
+.home-text-page h3 a i {
+  margin: 0 10px;
+}
+.second-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.second-page p {
+  width: 200px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.46px;
+  color: #5b5855;
+}
+.second-page img {
+  height: 60px;
+}
+
+.third-page {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-page-text {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.third-page-image {
+  width: 45%;
+  height: 100%;
+}
+
+.third-page-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.list-objects {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.list-objects li {
+  display: flex;
+  width: 415px;
+  padding: 20px 30px;
+  margin: 10px 0;
+  background-color: #f9f9f7;
+}
+
+.list-objects li:first-child {
+  background-color: #dce3dd;
+}
+
+.list-objects li i {
+  margin: 0 10px;
+}
+.third-page-text h1 {
+  color: #497557;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.24px;
+  margin-bottom: 20px;
+}
+
+.third-page-text h2 {
+  width: 333px;
+  font-size: 38px;
+  line-height: 50.54px;
+  letter-spacing: 0.15px;
+  color: #02291c;
+  font-weight: 400;
+}
+
+.fourth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.fourth-components {
+  width: 600px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fourth-components h1 {
+  width: 495px;
+  height: 136px;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 49.4px;
+  letter-spacing: 0.15px;
+}
+
+.fourth-components h2 {
+  width: 490px;
+  height: 51px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.02px;
+  color: #5b5855;
+}
+
+.fourth-components-buttons {
+  width: 600px;
+  height: 82px;
+  top: 222px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fourth-components-buttons-1 {
+  width: 171px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #0c4a34;
+  color: white;
+}
+
+.fourth-components-buttons-2 {
+  width: 138px;
+  height: 50px;
+}
+
+.sixth-page {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f8f4ef;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sixth-page p {
+  width: 800px;
+  font-weight: 400;
+  size: 100px;
+  line-height: 36.45px;
+  color: #02291c;
+  margin-top: 70px;
+}
+
+.sixth-page h1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25.02px;
+  color: #5b5855;
+  margin-left: 300px;
+  margin-bottom: 100px;
+}
+
+.quota {
+  width: 56px;
+  height: 45px;
+}
+
+.line-source {
+  width: 283.62px;
+  height: 182.92px;
+  top: 2px;
+  left: 2px;
+  border: 3px;
+  opacity: 60%;
+}
+
+.seventh-page {
+  width: 100%;
+  background-color: #f1f3ef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.resume-section {
+  width: 50%;
+  height: 472px;
+  top: 64px;
+
+}
+
+.resume-section-photo1 {
+  width: 500px;
+  height: 195px;
+  top: 13.73px;
+}
+.resume-section-photo2 {
+  width: 500px;
+  height: 195px;
+  top: 13.73px;
+  top: 50px;
+  left: 50px;
+}
+
+.provider-section-little {
+  width: 600px;
+  height: 407px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.provider-section-little h1 {
+  width: 473px;
+  height: 102px;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 50.54px;
+  margin-bottom: 10px;
+}
+
+.provider-section-little h2 {
+  width: 473px;
+  height: 67px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.24px;
+  color: #5b5855;
+  margin-bottom: 20px;
+}
+
+.choose-provider {
+  width: 430px;
+  height: 57px;
+  top: 6.73px;
+  margin-bottom: 20px;
+}
+
+.see-provider {
+  width: 141px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #0c4a34;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.eight-page{
+  width: 100%;
+  height: 280px;
+  top: 0.41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.eight-page h1{
+font-weight: 400;
+font-size: 14px;
+color: #8EB391;
+}
+
+.eight-page h2{
+font-weight: 400;
+font-size: 38px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.eight-page h3{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B5855;
+  
+}
